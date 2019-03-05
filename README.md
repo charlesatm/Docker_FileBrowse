@@ -3,7 +3,7 @@ Docker file to browse files in a server using Browser
 
 To give access to directories/files ,find the below line in the Browser.jsp
 
-private static final String RESTRICT_PATH = "/$directory1;/$directory2"; 
+private static final String RESTRICT_PATH = "$directory1;$directory2"; 
 
 and provide your directories.
 
