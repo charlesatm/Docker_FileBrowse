@@ -7,6 +7,12 @@ private static final String RESTRICT_PATH = "$directory1;$directory2";
 
 and provide your directories.
 
+Also, In the Dockerfile find the below line
+
+mkdir -p $your_directory
+
+and provide your directories.
+
 To run this image
 
 Build it using docker build command
