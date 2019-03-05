@@ -43,8 +43,7 @@
     private static final boolean RESTRICT_WHITELIST = true;
     //Paths, sperated by semicolon
     //private static final String RESTRICT_PATH = "C:\\CODE;E:\\"; //Win32: Case important!!
-	private static final String RESTRICT_PATH = "/rezsystem;/var/log/rezg";
-
+	private static final String RESTRICT_PATH = "$directory1;$directory2"; 
     //The refresh time in seconds of the upload monitor window
 	private static final int UPLOAD_MONITOR_REFRESH = 2;
 	//The number of colums for the edit field
